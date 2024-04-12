@@ -30,18 +30,6 @@
         border: solid white 3px;
         border-radius: 25px;
 
-        a{ 
-            transition: .4s;
-
-            &:hover {
-                cursor: pointer;
-                padding: 8%;
-                border-radius: 25px;
-                background-color: #7C91FF;
-                filter: brightness(1.1);
-                scale: 1.05;
-            }
-        }
     }
 
 }

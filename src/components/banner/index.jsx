@@ -10,9 +10,9 @@ const Banner = () => {
                     <h3 className="label">Marks Souza</h3>
                     <h1 className="title1">Desenvolvedor Front-End</h1>
                     <h2 className="paragraph">Bem vindo ao meu portifólio</h2>
-                    <a href="https://heyzine.com/flip-book/2e41de6728.html" target="_blank"> Dowload CV </a>
-                    {/* <button className="paragraph" >Dowload CV</button> */}
-
+                    <a href="https://drive.google.com/uc?export=download&id=1wo5mX1hse8k9yI0AjBxvuT7nDU2gpH5j"> 
+                    <button className="paragraph"  >Dowload CV</button> 
+                    </a> 
 
                     <p className="paragraph">Olá, sou o Marks, Desenvolvedor Frontend, atuando na área coo freelancer nos  últimos 
                         7 meses. Estudando back-end, consumo de APIs REST e aprimorando minhas habilidades
