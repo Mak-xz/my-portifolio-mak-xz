@@ -1,0 +1,81 @@
+.headerBox {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.headerContainer {
+    display: flex;
+    align-items: center;
+    padding-inline: 3%;
+    height: 65px;
+    border-bottom: #7C91FF solid 2px;
+    justify-content: space-between;
+
+    div {
+        display: flex;
+        width: 40%;
+        justify-content: flex-end;
+        gap: 10%;
+    }
+
+    img {
+        height: 35px;
+        transition: .3s;
+        outline: none;
+        border-bottom: none;
+
+        &:hover {
+            cursor: pointer;
+            filter: brightness(1.1);
+            scale: 1.05;
+        }
+    }
+
+    a {
+        outline: none;
+        background-color: #1C2830;
+    }
+
+
+    #contactButton {
+        display: flex;
+        width: auto;
+        height: 35px;
+        padding: 16px;
+        border-radius: 12px;
+        background-color: var(--color-primary);
+        align-items: center;
+        transition: .3s;
+
+        &:hover {
+            cursor: pointer;
+            background-color: #7C91FF;
+            filter: brightness(1.1);
+            scale: 1.05;
+        }
+    }
+
+    button {
+        display: flex;
+        background-color: var(--color-primary);
+        border-radius: 7px;
+
+        &:hover {
+            cursor: pointer;
+            background-color: #7C91FF;
+            scale: 1.05;
+        }
+
+
+    }
+}
+
+@media(max-width: 425px) {
+    .headerContainer {
+        img {
+            max-height: 28px;
+            max-width: 28px;
+        }
+    }
+}

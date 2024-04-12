@@ -1,0 +1,55 @@
+.bannerContainer {
+    display: flex;
+    align-items: center;
+    margin-inline: 6%;
+    margin-block: 2%;
+
+
+    h1 {
+        flex-wrap: wrap;
+        margin-bottom: 1.5%;
+        width: 35%;
+    }
+
+    p {
+        margin-top: 3%;
+        width: 35%;
+    }
+
+    button {
+        display: flex;
+        margin-top: 1.5%;
+        width: auto;
+        height: 35px;
+        padding: 16px;
+        border-radius: 12px;
+        background-color: var(--color-primary);
+        align-items: center;
+        transition: .3s;
+
+        &:hover {
+            cursor: pointer;
+            background-color: #7C91FF;
+            filter: brightness(1.1);
+            scale: 1.05;
+        }
+    }
+}
+
+.skillsContainer {
+    display: flex;
+    width: 100%;
+}
+
+@media(max-width: 425px) {
+    .bannerContainer {
+        flex-direction: column;
+        h1, h2, h3, p{
+            margin-inline: auto;
+            width: 100%;
+        }
+    }
+    .skillsContainer{
+        margin-top: 10%;
+    }
+}

@@ -1,0 +1,30 @@
+.projectsContainer{
+    display: flex;
+    align-items: center;
+    margin-top: 6%;
+    gap: 20px;
+    flex-direction: column;
+    background-color: white;
+
+    h2{
+        color: #1C2830;
+        margin-top: 2%;
+        background-color: white;
+
+    }
+
+    div{
+        display: flex;
+        gap: 30px;
+        flex-wrap: wrap;
+        padding: 2%;
+        margin-inline: auto;
+        background-color: white;
+    }
+}
+
+.gradient{
+    width: 100%;
+    height: 40px;
+    background-image: linear-gradient(to bottom, #1C2830, #fff);
+}

@@ -1,0 +1,13 @@
+.skillsContainer{
+    display: flex;
+    flex-direction: column;
+
+    div{
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+ 
+}
+
+ 
