@@ -14,13 +14,13 @@ const ProjectsList = () => {
         <>
             <Projects>
                 <ProjectsCard imageG={gitImg} linkG={"https://github.com/Mak-xz/The-Journal"} image={jornal01}
-                    imageMob={jornal02} name={"The Journal( testes com API )"} link={"https://the-journal-makxz.vercel.app/"} />
+                    imageMob={jornal02} name={"The Journal( React + API )"} link={"https://the-journal-makxz.vercel.app/"} />
 
                 <ProjectsCard imageG={gitImg} linkG={"https://github.com/Mak-xz/CRUD-mak-xz"} image={msg01}
-                    imageMob={msg02} name={"The MSG( CRUD )"} link={"https://crud-mak-i6ipoizjl-marks-projects-cea22b68.vercel.app/"} />
+                    imageMob={msg02} name={"The MSG( React CRUD )"} link={"https://crud-mak-i6ipoizjl-marks-projects-cea22b68.vercel.app/"} />
 
                 <ProjectsCard imageG={gclose}  image={ar01}
-                    imageMob={ar02} name={"Loja virtual (projeto real ativo)"} link={"https://www.jrarcondicionado.com.br/"} />
+                    imageMob={ar02} name={"Jr Ar (E commerce ativo)"} link={"https://www.jrarcondicionado.com.br/"} />
 
             </Projects>
         </>
